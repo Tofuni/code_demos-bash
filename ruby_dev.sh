@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# example usage:
+# ./ruby_dev.sh -d -e
+# (delete the ruby testfile contents and then edit it)
+
 DEVP="$HOME/ruby_dev"
 DEVF="$HOME/ruby_dev/test.rb"
 

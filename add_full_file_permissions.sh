@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# example usage:
+# add_full_file_permissions.sh -u -g example/path/myfile.txt
+# (adds user and group access to example/path/myfile.txt)
+
 FILE=${@:$#}
 
 if [ ! -f $FILE ]; then

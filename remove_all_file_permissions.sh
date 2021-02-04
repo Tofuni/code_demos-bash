@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# example usage:
+# ./remove_all_file_permissions.sh -g -o example/path/myfile.txt
+# (removes group and other access to example/path/myfile.txt)
+
 FILE=${@:$#}
 
 if [ ! -f $FILE ]; then

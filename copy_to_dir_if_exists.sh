@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# example usage:
+# ./copy_to_dir_if_exists.sh -s example/path/source -d example/path/destination
+
 SRC=""
 DEST=""
 while getopts s:d: FLAG

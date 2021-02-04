@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# example usage:
+# ./curl_and_download_endpoint.sh https://fbacarisas.xyz/ index.html
+
 FILENAME="$(date +'%d%m%y')_download"
 if [ ! -z "$2" ]; then
   FILENAME="$2"

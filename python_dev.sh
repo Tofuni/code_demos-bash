@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# example usage: 
+# ./python_dev.sh -e -t 
+# (edit the python testfile and then test it)
+
 DEVP="$HOME/python_dev"
 DEVF="$HOME/python_dev/test.rb"
 

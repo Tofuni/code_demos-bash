@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# example usage:
+# ./datestamp_files.sh server-logs 
+# (datestamp all the files/directories in the path "server-logs")
+
 P="."
 if [ ! -z $1 ]; then
   P="$1"

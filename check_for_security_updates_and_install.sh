@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# example usage:
+# ./check_for_security_updates_and_install.sh
+
 echo
 yum updateinfo security
 echo
